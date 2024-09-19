@@ -15,7 +15,8 @@
     float: left;
     width: 30%;
     height: 80%;
-    position: relative;
+    display: grid;
+    place-items: center;
 }
 
 .Portrait{
@@ -79,7 +80,7 @@
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
-    right: 10%;
+    right: 15%;
     margin: 1%; 
 }
 .Pages{
@@ -88,12 +89,11 @@
     right: 10%;
 }
 
-.ListOfAchievements{
+.Achievements ListOfAchievements{
     font-weight: 500;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: absolute;
-    padding-left: 40%;
-    padding-top: 40%;
+    object-fit: contain;
+    overflow: auto;  
 }
 
 .Years{
